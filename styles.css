@@ -5,202 +5,248 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
-  }
-  
-  .container {
-    max-width: 400px;
-    margin: 0 auto;
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  /* Header */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .user-info {
-    display: flex;
-    align-items: center;
-  }
-  
-  .profile-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .user-info h1 {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  .user-info p {
-    font-size: 14px;
-    color: gray;
-  }
-  
-  .menu {
-    font-size: 24px;
-  }
-  
-  /* Recent Task */
-  .recent-task {
-    padding: 20px;
-  }
-  
-  .recent-task h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  
-  .task-card {
-    background-color: #e7e2ff;
-    border-radius: 10px;
-    padding: 15px;
-    position: relative;
-  }
-  
-  .task-card.high {
-    background-color: #d9c8ff;
-  }
-  
-  .task-header {
-    margin-bottom: 10px;
-  }
-  
-  .priority {
-    font-size: 12px;
-    color: white;
-    background-color: #6a5acd;
-    padding: 5px 10px;
-    border-radius: 20px;
-  }
-  
-  .task-card h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  .progress-container{
-    display: flex;
-    gap: 10px;
-  }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+}
 
-  .progress-bar {
-    background-color: #ddd;
-    border-radius: 10px;
-    height: 8px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    margin-top: 10px;
-  }
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
   
-  .progress {
-    background-color: #6a5acd;
-    height: 100%;
-    width: 65%;
-    border-radius: 10px;
-  }
-  
-  .task-card{
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    text-align: center;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 14px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  }
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
 
-  .notes-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    background-color: #fff;
-    text-align: center;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 14px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+.user-info {
+  display: flex;
+  align-items: center;
+}
 
-  }
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.user-info p {
+  font-size: 14px;
+  color: gray;
+}
+
+.menu {
+  font-size: 24px;
+}
+
+/* Recent Task */
+.recent-task {
+  padding: 20px;
+}
+
+.recent-task h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.task-card {
+  background-color: #e7e2ff;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+}
+
+.task-card.high {
+  background-color: #d9c8ff;
+}
+
+.task-header {
+  margin-bottom: 10px;
+  align-items: left;
+}
+
+.priority {
+  font-size: 12px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+
+}
+
+.task-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
 
 
-  .task-card .link-card{
-    font-size: 18px;
-    font-weight: 700;
-  }
+.progress-container{
+  display: flex;
+  gap: 10px;
+}
 
- .task-img img{
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 8px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress {
+  background-color: #6a5acd;
+  height: 100%;
+  width: 65%;
+  border-radius: 10px;
+}
+
+.pertask-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notes-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  text-align: left;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.calender-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  text-align: left;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.progress-card{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.pertask-card .link-card{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.task-img img{
   width: 150px;
   height: auto;
- }
-  .task-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-  }
-  
-  .avatars {
-    display: flex;
-    align-items: center;
-  }
-  
+}
 
-  .notes-img img{
-    width: 150px;
-    height: auto;
-  }
+.progress-img img{
+  width: 150px;
+  height: auto;
+}
 
-  .notes-card .link-card{
-    font-size: 18px;
-    font-weight: 700;
-  }
-  .avatars img {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin-right: 5px;
-  }
-  
-  .icon-comment {
-    font-size: 18px;
-  }
-  
-  /* Quick Links */
-  .quick-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    padding: 20px;
-  }
-  
+.progress-card .link-card{
+  font-size: 18px;
+  font-weight: 700;
+}
 
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
   
-  /* Bottom Navigation */
-  .bottom-nav {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    background-color: #fff;
-    border-top: 1px solid #ddd;
-  }
+.avatars {
+  display: flex;
+  align-items: center;
+}
+
+
+.notes-img img{
+  width: 150px;
+  height: auto;
+}
+
+.calender-img img{
+  width: 150px;
+  height: auto;
+}
+
+.notes-card .link-card{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.calender-card .link-card{
+  font-size: 18px;
+  font-weight: 700;
+}
+.avatars img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.icon-comment {
+  font-size: 18px;
+}
   
-  .bottom-nav i {
-    font-size: 20px;
-  }
+/* Quick Links */
+.quick-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+
+
+/* Bottom Navigation */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.bottom-nav i {
+  font-size: 20px;
+}
   
