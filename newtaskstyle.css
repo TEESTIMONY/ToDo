@@ -1,0 +1,129 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 50px;
+  }
+  
+  .task-form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .task-form input,
+  .task-form textarea {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .category-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    width: 65%;
+  }
+  
+  .category-btn {
+    flex: 1;
+    padding: 8px 0;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: #f9f9f9;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .category-btn.active {
+    background: #162045;
+    color: #fff;
+  }
+  
+  .category-btn:hover {
+    background: #ddd;
+  }
+  
+  .datetime {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+  }
+  
+  .datetime div {
+    width: 48%;
+  }
+  
+  .form-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .cancel-btn,
+  .create-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .cancel-btn {
+    background: #f9f9f9;
+    color: #555;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+  }
+  
+  .cancel-btn:hover {
+    background: #ddd;
+  }
+  
+  .create-btn {
+    background: #162045;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .create-btn:hover {
+    background: #0f1636;
+  }
+  

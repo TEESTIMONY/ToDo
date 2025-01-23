@@ -125,6 +125,7 @@ body {
   text-align: left;
   font-size: 14px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .notes-card{
@@ -136,6 +137,7 @@ body {
   border-radius: 10px;
   font-size: 14px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 
 }
 
@@ -148,10 +150,11 @@ body {
   border-radius: 10px;
   font-size: 14px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 
-.progress-card{
+.add-card{
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -160,6 +163,7 @@ body {
   border-radius: 10px;
   font-size: 14px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 
@@ -173,12 +177,12 @@ body {
   height: auto;
 }
 
-.progress-img img{
+.add-img img{
   width: 150px;
   height: auto;
 }
 
-.progress-card .link-card{
+.add-card .link-card{
   font-size: 18px;
   font-weight: 700;
 }
