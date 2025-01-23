@@ -13,18 +13,20 @@ body {
 .container {
   max-width: 400px;
   margin: 0 auto;
-  margin-top: 100px;
   overflow: hidden;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 
 h2 {
     text-align: center;
     color: #555;
     margin-bottom: 50px;
+    margin-top: 70px;
+
   }
   
   .task-form label {
